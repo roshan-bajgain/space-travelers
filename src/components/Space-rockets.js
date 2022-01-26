@@ -1,5 +1,3 @@
-const Rockets = () => {
-    return null;
-  };
-  
-  export default Rockets;
+const Rockets = () => null;
+
+export default Rockets;
