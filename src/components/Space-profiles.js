@@ -1,5 +1,3 @@
-const Profiles = () => {
-    return null;
-  };
-  
-  export default Profiles;
+const Profiles = () => null;
+
+export default Profiles;
