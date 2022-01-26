@@ -1,6 +1,5 @@
-import { combineReducers, applyMiddleware, createStore } from "redux";
-import logger from "redux-logger";
-import { composeWithDevTools } from "redux-devtools-extension";
+import thunk from "redux-thunk";
+// import { composeWithDevTools } from "redux-devtools-extension";
 import missionReducer from "./Missions";
 
 const reducers = combineReducers({
@@ -8,10 +7,6 @@ const reducers = combineReducers({
 });
 
 const middlwares = [logger];
-
-const configureStore = createStore(
-  reducers,
-  composeWithDevTools(applyMiddleware(...middlwares))
-);
+const configureStore = createStore(reducers, applyMiddleware(logger, thunk));
 
 export default configureStore;
