@@ -1,8 +1,8 @@
-export const JOIN_MISSION = 'space/missions/JOINMISSION';
-export const LOAD_MISSION = 'space/missions/LOADMISSION';
-export const LEAVE_MISSION = 'space/missions/LEAVE_MISSION';
+export const JOIN_MISSION = "space/missions/JOINMISSION";
+export const LOAD_MISSION = "space/missions/LOADMISSION";
+export const LEAVE_MISSION = "space/missions/LEAVE_MISSION";
 
-const URL = 'https://api.spacexdata.com/v3/missions';
+const URL = "https://api.spacexdata.com/v3/missions";
 
 export const joinMission = (id) => ({
   type: JOIN_MISSION,
