@@ -1,58 +1,66 @@
+/* stylelint-disable */
+
+
+/* eslint-disable */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 * {
-  outline: none;
-  list-style: none;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0 auto;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  width: 100%;
-  max-width: 1600px;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    max-width: 1600px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .navbar {
-  justify-content: space-between;
-  padding: 10px 20px;
-  margin: 0 30px;
-  border-bottom: 2px solid rgb(201, 193, 193);
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 0 30px;
+    border-bottom: 2px solid rgb(201, 193, 193);
 }
 
 .logo {
-  width: 60px;
-  height: 60px;
+    width: 60px;
+    height: 60px;
 }
 
 .title {
-  padding-left: 15px;
-  font-size: 30px;
+    padding-left: 15px;
+    font-size: 30px;
 }
 
 .links li {
-  padding: 0 10px;
+    padding: 0 10px;
 }
 
 .active-link {
-  color: blue;
-  text-decoration: underline;
+    color: blue;
+    text-decoration: underline;
 }
 
 a:active {
-  color: blue;
+    color: blue;
 }
 
 .navbar,
 .logo-container,
 .links {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
