@@ -20,7 +20,7 @@ const Profile = () => {
     }
   }, []);
   return (
-    <div className="grid grid-cols-3 w-full mx-auto">
+    <div className="grid grid-cols-2 w-full mx-auto">
       <section>
         <h2 className="text-2xl w-full flex justify-center items-center p-3 font-bold">
           My Rockets{" "}
@@ -55,23 +55,6 @@ const Profile = () => {
               ))}{" "}
         </ul>{" "}
       </section>{" "}
-      {/* <section>
-                    <h2 className="text-2xl w-full flex justify-center items-center p-3 font-bold">
-                      My Dragons{" "}
-                    </h2>{" "}
-                    <ul className=" flex flex-col px-6 py-3">
-                      {" "}
-                      {dragons &&
-                        dragons
-                          .filter((dragon) => dragon.reserved === true)
-                          .map((reserve) => (
-                            <li className="border-gray-400 border  p-6" key={reserve.id}>
-                              {" "}
-                              {reserve.name}{" "}
-                            </li>
-                          ))}{" "}
-                    </ul>{" "}
-                  </section>{" "} */}{" "}
     </div>
   );
 };
