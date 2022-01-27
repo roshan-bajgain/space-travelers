@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mission Element Tests renders correctly 1`] = `
+<div
+  className="grid grid-cols-2 w-full mx-auto"
+>
+  <section>
+    <h2
+      className="text-2xl w-full flex justify-center items-center p-3 font-bold"
+    >
+      My Rockets
+       
+    </h2>
+     
+    <ul
+      className=" flex flex-col px-6 py-3"
+    >
+       
+       
+    </ul>
+     
+  </section>
+   
+  <section>
+    <h2
+      className="text-2xl w-full flex justify-center items-center p-3 font-bold"
+    >
+      My Missions
+       
+    </h2>
+     
+    <ul
+      className=" flex flex-col px-6 py-3"
+    >
+       
+       
+    </ul>
+     
+  </section>
+   
+</div>
+`;
