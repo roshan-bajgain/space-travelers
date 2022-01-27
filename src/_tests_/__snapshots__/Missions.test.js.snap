@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mission Element Tests renders correctly 1`] = `
+<div>
+  <table
+    className="table table table-sm table-striped table-bordered table-hover"
+  >
+    <thead>
+      <tr>
+        <th>
+           Mission 
+        </th>
+         
+        <th>
+           Description 
+        </th>
+         
+        <th>
+           Status 
+        </th>
+         
+        <th>
+           
+           
+        </th>
+         
+      </tr>
+       
+    </thead>
+     
+    <tbody>
+       
+       
+    </tbody>
+     
+  </table>
+   
+</div>
+`;
