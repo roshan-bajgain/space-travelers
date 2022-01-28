@@ -37,8 +37,6 @@ export const getMissions = () => async (dispatch) => {
   dispatch(loadMission(missionArr));
 };
 
-// export default getMissions;
-
 export const missionsSelector = (state) => state.missions;
 
 export const newStateToJoinMission = (missions, id) => {

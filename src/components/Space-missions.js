@@ -33,7 +33,7 @@ const Missions = () => {
               <td> {m.mission_description} </td>{" "}
               <td className="status" width="100px">
                 {" "}
-                {m.isReserved ? (
+                {m.isReserved && (
                   <div
                     className="primary"
                     bg="success"
@@ -42,7 +42,8 @@ const Missions = () => {
                     {" "}
                     ACTIVE MEMBER{" "}
                   </div>
-                ) : (
+                )}
+                {!m.isReserved && (
                   <div
                     className="secondary"
                     bg="secondary"
@@ -55,7 +56,7 @@ const Missions = () => {
               </td>{" "}
               <td className="status" width="150px">
                 {" "}
-                {m.isReserved ? (
+                {m.isReserved && (
                   <button
                     type="button"
                     className="join"
@@ -66,7 +67,8 @@ const Missions = () => {
                     {" "}
                     Leave Mission{" "}
                   </button>
-                ) : (
+                )}
+                {!m.isReserved && (
                   <button
                     type="button"
                     className="leave"

@@ -1,5 +1,3 @@
-// const Profiles = () => null;
-/* eslint-disable max-len */
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getRocketsAction } from "../redux/Rockets";
