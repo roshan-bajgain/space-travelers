@@ -28,11 +28,11 @@ const Rockets = () => {
     <section className="inner-padding">
       {rockets &&
         rockets.map((rocket) => (
-          <div className="rocket" key={rocket.id}>
-            <div className="rocket-img">
+          <div className="rocket flex my-5" key={rocket.id}>
+            <div className="rocket-img w-2/6">
               <img className="pl-6" src={rocket.flickr_images} alt="rocket" />
             </div>
-            <div className="rocket-info pr-3">
+            <div className="rocket-info pl-6">
               <h1>{rocket.rocket_name}</h1>
               <p>
                 {rocket.reserved && (
