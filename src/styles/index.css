@@ -1,0 +1,232 @@
+/* stylelint-disable */
+
+
+/* eslint-disable */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    max-width: 1600px;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.navbar {
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 0 30px;
+    border-bottom: 2px solid rgb(201, 193, 193);
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.title {
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+.links li {
+    padding: 0 10px;
+}
+
+.active-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+.navbar,
+.logo-container,
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.reserve-badge {
+    background-color: rgb(34, 209, 209);
+    margin-right: 10px;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.rocket {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.rocket-img {
+    max-width: 300px;
+}
+
+.rocket-img img {
+    max-width: 300px;
+}
+
+.rocket-info {
+    width: 100%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rocket-info p {
+    line-height: 25px;
+}
+
+.rocket-info h1 {
+    margin-bottom: 20px;
+}
+
+.rockets-container {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.button-div {
+    margin-top: 20px;
+}
+
+.button-div button,
+.reserve-btn {
+    padding: 10px 15px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.button-div button:hover,
+.reserve-btn:hover {
+    cursor: pointer;
+    background-color: rgb(11, 11, 99);
+}
+
+.cancel-reserve-btn {
+    background-color: rgb(228, 228, 236);
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cancel-reserve-btn:hover {
+    cursor: pointer;
+    background-color: rgb(193, 197, 197);
+}
+
+
+/* ......Missions styles here....... */
+
+table,
+th,
+td {
+    border: 1px solid #e1e5e8;
+    border-collapse: collapse;
+}
+
+table {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+    margin-left: 1.5rem;
+}
+
+tbody {
+    text-align: justify;
+}
+
+th {
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.mission {
+    width: 9%;
+    padding-right: 3.7rem;
+}
+
+.description {
+    width: 70%;
+    padding-right: 62rem;
+}
+
+.status {
+    padding-right: 4.5rem;
+    width: 9%;
+}
+
+td:first-child {
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 0.5rem;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+
+/* p {
+    font-size: 13px;
+    font-weight: 700;
+    border: 1px solid #6d757d;
+    padding-left: 0.5rem;
+    background-color: #6d757d;
+    color: white;
+    border-radius: 3px;
+} */
+
+td {
+    line-height: 1.4rem;
+    font-size: 16px;
+    padding-top: 0.4rem;
+    padding-bottom: 2rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.join,
+.leave {
+    padding: 0.4rem;
+    margin-left: 1rem;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.primary,
+.secondary {
+    padding: 0.4rem;
+    margin-left: 1rem;
+    font-size: 14px;
+    border-radius: 3px;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
