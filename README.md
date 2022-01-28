@@ -1,9 +1,9 @@
 # Space Travelers' Hub
 > Space Traveler's Hub is a single page web application that fatches rockets, missions from the SpaceX API. Users can book and cancel their reservations for rockets and missions. Application has three pages Rockets/Missions/MY Profile, My Profile page shows the list of reserved rockets and missions.
 
-![screenshot](./Images/rocket.png)
-![screenshot](./Images/mission.png)
-![screenshot](./Images/my-profile.png)
+![screenshot](./src/Images/rocket.png)
+![screenshot](./src/Images/mission.png)
+![screenshot](./src/Images/my-profile.png)
 
 ## Built With
 - Html
