@@ -1,5 +1,5 @@
 # Space Travelers' Hub
-> In this project, we built a space travelers application with React and Redux. Here, users can navigate between Rockets, Missions, and Profiles
+> Space Traveler's Hub is a single page web application that fatches rockets, missions from the SpaceX API. Users can book and cancel their reservations for rockets and missions. Application has three pages Rockets/Missions/MY Profile, My Profile page shows the list of reserved rockets and missions.
 
 ## Built With
 - Html
