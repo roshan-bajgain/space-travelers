@@ -41,7 +41,7 @@ const Rockets = () => {
                 {rocket.description}
               </p>
               <div className="button-div">
-                {!rocket.reserved ? (
+                {!rocket.reserved && (
                   <button
                     className="reserve-btn"
                     onClick={() => setReserve(rocket.id)}
@@ -50,13 +50,15 @@ const Rockets = () => {
                     {" "}
                     Reserve
                   </button>
-                ) : (
+                )}
+                {rocket.reserved && (
                   <button
                     className="cancel-reserve-btn"
                     onClick={() => cancelReserve(rocket.id)}
                     type="button"
                   >
-                    {!rocket.reserved ? "Reserve" : "Cancel Reserve"}
+                    {!rocket.reserved && "Reserve"}
+                    {rocket.reserved && "cancel Reverse"}
                   </button>
                 )}
               </div>
