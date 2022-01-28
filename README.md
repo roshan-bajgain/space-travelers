@@ -1,6 +1,10 @@
 # Space Travelers' Hub
 > Space Traveler's Hub is a single page web application that fatches rockets, missions from the SpaceX API. Users can book and cancel their reservations for rockets and missions. Application has three pages Rockets/Missions/MY Profile, My Profile page shows the list of reserved rockets and missions.
 
+![screenshot](./Images/rocket.png)
+![screenshot](./Images/mission.png)
+![screenshot](./Images/my-profile.png)
+
 ## Built With
 - Html
 - CSS
@@ -9,7 +13,7 @@
 
 ## Live Demo
 
-[View Live Demo]()
+[View Live Demo](https://epic-hugle-d2e175.netlify.app)
 
 ## Getting Started
 
@@ -43,6 +47,8 @@ To get a local copy up and running follow these steps.
 👤 **Roshan Bajgain**
 
 - GitHub: [@Mucyosoda](https://github.com/Mucyosoda)
+- Twitter: [@RoshanBajgain10](https://twitter.com/@ClaudeMucyo1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mucyoclaude)
 
 
 ## 🤝 Contributing
